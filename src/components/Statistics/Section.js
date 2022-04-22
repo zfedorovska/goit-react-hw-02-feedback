@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import s from './Statistics.module.css';
 
 const Section = ({ title, children }) => (
@@ -7,5 +8,9 @@ const Section = ({ title, children }) => (
         {children}
     </div>   
 )
+
+Notification.propTypes = {
+    title: PropTypes.string
+};
 
 export default Section;
