@@ -1,5 +1,4 @@
 import React from 'react';
-import s from './Statistics.module.css';
 import FeedbackOptions from './FeedbackOptions ';
 import Statistics from './Statistics';
 import Section from './Section';
